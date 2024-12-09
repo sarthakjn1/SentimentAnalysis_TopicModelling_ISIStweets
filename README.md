@@ -99,9 +99,18 @@ Overall, the Unsupervised LDA model performs better in terms of perplexity, whil
 1. For positive sentiment, content moderators can identify subtle propaganda and monitor recruitment messaging by tracking religious and community terms tied to ideological expressions. Social media platforms might focus on clusters that frequently use these terms, flagging content that indirectly supports extremist ideologies through non-violent messaging.
 2. For neutral sentiment, early detection of extremist messaging can help intelligence agencies track territorial control and group activities. Understanding these narratives helps in assessing which geographic areas or groups are of interest to extremists. Also, social media platforms can improve content moderation by distinguishing legitimate news from covert propaganda.
 3. For negative sentiment, counter-terrorism agencies and social media platforms can use this analysis to monitor narratives involving military conflicts and anti-Western sentiments. It could assist to track radicalization hotspots and recruitment points. Humanitarian organizations can use the insights to assess areas with increased civilian impact and allocate resources effectively.
-# Discussion and Gap Analysis
+## Discussion and Gap Analysis
 One significant limitation was the dataset’s lack of labeled sentiment categories, which made it difficult to evaluate sentiment analysis models effectively. Without “ground-truth” sentiment labels, we lacked a reliable metric to validate the sentiment predictions. Furthermore, the dataset's small size and its inherent bias (leaning heavily toward pro-ISIS sentiment) caused an imbalance, skewing the sentiment distribution and reducing the representativeness of the data.
-# Future Work
+## Future Work
 In our analysis, we did not consider French words that remained in the corpus. These words were in the corpus as the French language used alphabets, and were excluded from the Arabic-English translation of the original tweets. What could be done in future studies is to properly identify the different languages and be deliberate about the translation. For this analysis, we only used ISIS supporter tweets. In future works, study can be done to compare pro-ISIS against anti-ISIS sentiment-topic pair to have a clear differentiation between the two groups of users. This will help content moderators to get to the correct accounts as the central nodes for information dissemination
+## Contributors
+Lorielle Malveda
 
+Liang Xiuhao
+
+Huang Shaofei
+
+Christopher Goh Cheng En 
+
+Low Wei Jun
 
